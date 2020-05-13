@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>practice on Sarah&#39;s digital notebook</title>
+    <link>http://example.org/tags/practice/</link>
+    <description>Recent content in practice on Sarah&#39;s digital notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 May 2020 14:27:52 -0400</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MD syntax</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Wed, 13 May 2020 14:27:52 -0400</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>Blah, blah blah.
+What I know so far:  How to copy-paste example code ascii art does not work (how do I make it work?)   .__ .__ .__ .__ .___ | |__ ____ | | | | ____ __ _ _____________| | __| _/ | | \_/ __ \| | | | / _ \ \ \/ \/ / _ \_ __ \ | / __ | | Y \ ___/| |_| |_( &amp;lt;_&amp;gt; ) \ ( &amp;lt;_&amp;gt; ) | \/ |__/ /_/ | |___| /\___ &amp;gt;____/____/\____/ \/\_/ \____/|__| |____/\____ | \/ \/ \/ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░░░░░░░░░░░▌ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌ ▐░░░░░░░░░░▌ ▐░▌ ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▐░▌ ▐░█▀▀▀▀▀▀▀█░▌ ▐░▌ ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌ ▐░█▀▀▀▀▀▀▀█░▌ ▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▄ ▐░▌▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▐░▌ ▐░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░▌ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌░▌ ▐░▌▐░▌ ▐░▌▐░█▀▀▀▀█░█▀▀ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░▌▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌ ▐░▌░▌ ▐░▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌ ▐░░▌ ▐░░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▀ ▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀ ▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀  </description>
+    </item>
+    
+  </channel>
+</rss>
