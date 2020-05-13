@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Sarah's digital notebook"
+theme = "ezhil"
