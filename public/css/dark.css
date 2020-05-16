@@ -7,7 +7,6 @@ body {
     background: #666;
     text-shadow: none
 }
-
 ::selection {
     background: #666;
     text-shadow: none
@@ -22,11 +21,11 @@ blockquote {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #ddd;
+	color: #A6A9AB;
 }
 
 a,a:hover {
-	color: #ff7979;
+	color: #33B5FF;
 	text-decoration: none;
 }
 

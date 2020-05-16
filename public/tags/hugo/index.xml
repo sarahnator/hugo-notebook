@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sarah&#39;s digital notebook</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Sarah&#39;s digital notebook</description>
+    <title>hugo on Sarah&#39;s digital notebook</title>
+    <link>http://example.org/tags/hugo/</link>
+    <description>Recent content in hugo on Sarah&#39;s digital notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 May 2020 00:18:43 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,16 +31,6 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#39; `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$
       <guid>http://example.org/posts/howtohugo/</guid>
       <description>Front matter Metadata about a page contained by key-value pairs written in JSON, TOML, or YAML. The archetypes/default.md file prepopulates the front matter with default fields, which include title, date, and draft, and can be edited to include tag, category, or custom fields.
 front matter languages  YAML syntax:  --- title: &amp;#34;title of post&amp;#34; date: 2020-05-14T12 draft: true ---  TOML syntax:  title = &amp;#34;title of post&amp;#34; date = 2020-05-14T12 draft = true To specify front matter for a specific directory that overrides the default.</description>
-    </item>
-    
-    <item>
-      <title>MD syntax</title>
-      <link>http://example.org/posts/first-post/</link>
-      <pubDate>Wed, 13 May 2020 14:27:52 -0400</pubDate>
-      
-      <guid>http://example.org/posts/first-post/</guid>
-      <description>I&amp;rsquo;m late, I&amp;rsquo;m late for a very important date&amp;hellip; by Susie Oviatt
- ,;;;, ,;;;;;;;, .;;;, ,;;;;;;;;;;;, .;;%%;;;, ,;;;;;;;;;;;;;, ;;%%%%%;;;;,. ;;;;;;;;;;;;;;; ;;%%%%%%%%;;;;;, ;;;;;;;;;;;;;;; `;;%%%%%%%%%;;;;;,;;;;;;;;;;;;;&#39; `;;%%%%%%%%%%;;;;,;;;;;;;;;;;&#39; `;;;%%%%%%%%;;;;,;;;;;;;;;&#39; `;;;%%%%%%;;;;.;;;.;;; `;;;%%%;;;;;;.;;;,; .,;;&#39; `;;;;;;;;;;,;;;;;;&#39;.,;;;, ;;;;;;;;;;;;;;;;;;;;;,. . ..,,;;;;;......;;;;;;;.... &#39;; ;;,..,;;;;;;;;;;;;..;;;;;;..;;;;.;;;;;. &#39;;;;;;;;;;;;;;;..;;;a@@@@a;;;;;;;a@@@@a, .,;;;;;;;;;;;;;;;.;;;a@@@@@@@@;;;;;,@@@@@@@a, .;;;,;;;;;;;;;;;;;;;;;@@@@@&#39; @@;;;;;;,@ `@@@@;, ;&#39; ,;;;,;;;;;;;;;;;;;;;@@@@@aa@@;;;;,;;;,@aa@@@@;;;,.,; ;;;,;;;;;;;;;;;;;;;;;;@@@@@@@;;;,;a@@&#39; `;;;;;;;&#39; &#39; ;;;,;;;;;;;;;;;;;;;;;;;;;;;;,;a@@@ # ;;,;;, .//////,,;,;;;;;;;;;;;;;;;,;;;;;;;;,;;a@@@a, ,a;;;,;;, %,/////,;;;;;;;;;;;;;;;;;;;;,;,;,;;;;a@@@@@@aaaaaaa@@@;;;;;&#39;; `%%%%,/,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;@@@@@@@@@@@;00@@;;;;;&#39; %%%%%%,;;;;;;;;;;;;;;;;;;;;;;;;;;;a@@@@@@@@@@;00@@;;;;;&#39; `%%%%%%%%%%,;;;;;;;;;;;;;;;;;;;;a@@@@@@@@@;00@@;;;;;&#39; `%%%%%%%%%%%%%%%,::::;;;;;;;;a@@@@@@@;00@@@::;;;%%%%%, `%%%%%%%%%%%%%%%,::::;;;;;@@@@@@&#39; 0@@@@::;;%%%%%%%%&#39; Oo%%%%%%%%%%%%,::::;;a@@@@@&#39; ,@@@::;;%%%%%%%&#39; `OOo%%%%%%%%%%,::::@@@@@&#39; @@;::;%%%%%%&#39; `OOOo%%%%%%%%,:::@@@@,;;;,a@:;;%%%%%&#39; `OOOOOo%%%%%,:::@@@aaaa@&#39;;;%%%%&#39; `OOOO;@@@@@@@@aa@@@@@@@@@&#39; ;@@@@@@@@@@@@@@@@@@@&#39; @@@@@@@@&#39;`@@@@@@@@&#39; `@@@@@&#39; @@@@@&#39; `@@&#39; @@&#39; .</description>
     </item>
     
   </channel>

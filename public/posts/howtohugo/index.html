@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HowToHugo - Sarah&#39;s digital notebook</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="HowToHugo" />
+<meta property="og:description" content="Some slightly useful stuff about Hugo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/howtohugo/" />
+<meta property="article:published_time" content="2020-05-14T12:10:14-04:00" />
+<meta property="article:modified_time" content="2020-05-14T12:10:14-04:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HowToHugo"/>
+<meta name="twitter:description" content="Some slightly useful stuff about Hugo."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.css" /><link rel="stylesheet" type="text/css" href="http://example.org/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://example.org/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title"><a href="http://example.org/">Sarah&#39;s digital notebook</a></h1>
+	<div class="site-description"><h2>Useless knowledge est. 2020</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/sarahnator" title="Github"><i data-feather="github"></i></a><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+		
+		<div class="post-header">
+			<h1 class="title">HowToHugo</h1>
+			<div class="meta">Posted at &mdash; May 14, 2020</div>
+		</div>
+        <hr>
+
+		<div class="markdown">
+			<h2 id="front-matter">Front matter</h2>
+<p>Metadata about a page contained by key-value pairs written in JSON, TOML, or YAML. The archetypes/default.md file prepopulates the front matter with default fields, which include title, date, and draft, and can be edited to include tag, category, or custom fields.</p>
+<h3 id="front-matter-languages">front matter languages</h3>
+<ul>
+<li>YAML syntax:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">---
+<span style="color:#66d9ef">title</span>: <span style="color:#e6db74">&#34;title of post&#34;</span>
+<span style="color:#66d9ef">date</span>: <span style="color:#e6db74">2020-05-14</span>T12
+<span style="color:#66d9ef">draft</span>: <span style="color:#66d9ef">true</span>
+---
+</code></pre></div><ul>
+<li>TOML syntax:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-TOML" data-lang="TOML"><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;title of post&#34;</span>
+<span style="color:#a6e22e">date</span> = <span style="color:#ae81ff">2020-05-14</span><span style="color:#a6e22e">T12</span>
+<span style="color:#a6e22e">draft</span> = <span style="color:#66d9ef">true</span>
+</code></pre></div><p>To specify front matter for a specific directory that overrides the default.md metadata:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">&gt;$ hugo new archetypes/directoryNameHere.md
+</code></pre></div><h3 id="archetypes">Archetypes</h3>
+<p>Defines default front matter template</p>
+<ul>
+<li>default front matter in archetypes/default.md</li>
+<li>can specifiy front matter for a directory (to override default front matter) by creating a directory with that name inside the archetypes folder</li>
+</ul>
+<h2 id="taxonomies">Taxonomies</h2>
+<hr>
+<p>Used for organizing Hugo website content. Default Hugo taxonomies include tag, category. These taxonomies populate the front matter in md files.</p>
+<p>Example syntax:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">---
+<span style="color:#66d9ef">title</span>: <span style="color:#e6db74">&#34;title of post&#34;</span>
+<span style="color:#66d9ef">date</span>: date
+<span style="color:#66d9ef">draft</span>: <span style="color:#66d9ef">false</span>
+<span style="color:#66d9ef">tags</span>: [<span style="color:#e6db74">&#34;how-to&#34;</span>, <span style="color:#e6db74">&#34;other tag&#34;</span>]
+<span style="color:#66d9ef">categories</span>: [<span style="color:#e6db74">&#34;hugo&#34;</span>, <span style="color:#e6db74">&#34;static website&#34;</span>, <span style="color:#e6db74">&#34;some category&#34;</span>]
+---
+</code></pre></div><h3 id="create-custom-taxonomies">Create Custom taxonomies:</h3>
+<p>Suppose we wanted to create a custom taxonomy called <em>project</em>. In config.toml add:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">...
+[taxonomies]
+tag = &#34;tags&#34;
+category = &#34;categories&#34;
+project = &#34;projects&#34;
+</code></pre></div><p><strong>Note: you must define the default taxonomies (tag and category) whenever you add a custom taxonomy.</strong></p>
+<p>Then in yourPostName.md:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-YAML" data-lang="YAML">---
+<span style="color:#66d9ef">title</span>: <span style="color:#e6db74">&#34;title of post&#34;</span>
+...
+<span style="color:#66d9ef">tags</span>: [<span style="color:#e6db74">&#34;how-to&#34;</span>, <span style="color:#e6db74">&#34;demo&#34;</span>, <span style="color:#e6db74">&#34;other tag&#34;</span>]
+<span style="color:#66d9ef">categories</span>: [<span style="color:#e6db74">&#34;hugo&#34;</span>, <span style="color:#e6db74">&#34;static website&#34;</span>, <span style="color:#e6db74">&#34;some category&#34;</span>]
+<span style="color:#66d9ef">projects</span>: [<span style="color:#e6db74">&#34;myHugoWebsite&#34;</span>, <span style="color:#e6db74">&#34;not school stuff&#34;</span>]
+---
+</code></pre></div><p>Restart the server anytime you change config.toml with the command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">&gt;$ hugo server
+# to see drafts use -D flag:
+&gt;$ hugo server -D
+</code></pre></div><h2 id="layouts-templates">Layouts: Templates</h2>
+<hr>
+<p>HTML framework for list, single, home pages and sections (refers to page content in a single folder) in themes/templates. Templates can be modularized using a baseof.html in the layouts directory.</p>
+<h3 id="overriding-theme-templates">Overriding theme templates</h3>
+<p>List page example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"># create folder _default in layouts and create new html file for list page
+&gt;$ hugo new layouts/_default/list.html
+</code></pre></div><ul>
+<li>single page follows similar format as list page</li>
+</ul>
+<p>The home page uses list template by default, but that can be overriden too:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"># create index.html file in root directory of layouts
+&gt;$ hugo new layouts/index.html
+</code></pre></div><p>To create a section template:</p>
+<ul>
+<li>Create a directory in the layouts directory with the same title as the directory of the section. Inside that directory, can override list or single page templates</li>
+</ul>
+<h3 id="baseof-templates--blocks">baseof templates + blocks</h3>
+<p>Makes layous more modular by creating blocks in the baseof.html that you define in html files for list and single pages. Basically an html skeleton for all your pages that you can inject content into by defining blocks.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"># create baseof.html template
+&gt;$ hugo new layouts/_default/baseof.html
+
+# layouts/_default/baseof.html:
+&lt;<span style="color:#f92672">body</span>&gt;
+Baseof Top
+&lt;<span style="color:#f92672">hr</span>&gt;
+{{ block &#34;main&#34; .}}
+
+{{end }}
+{{block &#34;footer&#34; .}}
+This is the default base of footer
+{{end}}
+&lt;<span style="color:#f92672">hr</span>&gt;
+Baseof Bottom
+&lt;/<span style="color:#f92672">body</span>&gt;
+
+# layouts/single.html:
+{{define &#34;main&#34;}}
+This is the single page template.
+{{end}}
+{{define &#34;footer&#34;}}
+I&#39;m going to override the baseof footer. This is the single template footer.
+{{end}}
+</code></pre></div><h3 id="partial-templates">Partial templates</h3>
+<p>HTML for footers, navivation, headers that can be injected into single / list templates</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">
+# create layouts/partials.html
+&gt;$ hugo new layouts/partials/header.html
+</code></pre></div><p>Inside layouts/partials/header.html:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">h1</span>&gt;{{.Title}}&lt;/<span style="color:#f92672">h1</span>&gt;
+&lt;<span style="color:#f92672">div</span>&gt;{{.Date}}&lt;<span style="color:#f92672">div</span>&gt;
+&lt;<span style="color:#f92672">div</span>&gt;{{.Tags}}&lt;<span style="color:#f92672">div</span>&gt;
+&lt;<span style="color:#f92672">hr</span>&gt;
+&lt;<span style="color:#f92672">br</span>&gt;
+</code></pre></div><p>Now insert into layouts/single.html:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"># using . operator
+{{partial &#34;header&#34; . }} // &#34;.&#34; gives partials/header.html access to all the same variables in the template
+&lt;<span style="color:#f92672">h1</span>&gt;Single page template&lt;<span style="color:#f92672">h1</span>&gt;
+</code></pre></div><p>or</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"># using dictionary
+{{partial &#34;header&#34; (dict &#34;myTitle&#34; &#34;someName&#34; &#34;myDate&#34; &#34;theFuture&#34;) }} // &#34;.&#34; gives partials/header.html access to all the same variables in the template
+&lt;<span style="color:#f92672">h1</span>&gt;Single page template&lt;<span style="color:#f92672">h1</span>&gt;
+</code></pre></div><h3 id="shortcodes-templates">Shortcodes templates</h3>
+<p>Inject predefined code/html snippets into md files</p>
+<p><a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">hugo default shortcodes</a></p>
+<h2 id="hugo-variables--functions--conditionals">Hugo variables / functions / conditionals</h2>
+<hr>
+<ul>
+<li>Can only access variables in the <strong>layouts folder</strong></li>
+<li>some default hugo variables: .Title, .Date, .Content, .URL</li>
+</ul>
+<h3 id="accessing-default-hugo-variables">Accessing default hugo variables</h3>
+<p>Example (list page template):</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">title</span>&gt;Insert title&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+    {{ .Content }} //access list page content
+    //for all pages in list page, create ul to display page title which links to that page
+    &lt;<span style="color:#f92672">ul</span>&gt;
+        {{range .Pages}} 
+            &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{.URL}}&#34;</span>&gt;{{.Title}}&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt;
+        {{end}}
+    &lt;<span style="color:#f92672">ul</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><h3 id="accessing-custom-front-matter-variables-example">Accessing custom front matter variables example</h3>
+<p>(single page template)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">html</span>&gt;
+&lt;<span style="color:#f92672">title</span>&gt;Insert title&lt;/<span style="color:#f92672">title</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+    &lt;<span style="color:#f92672">h2</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;color: {{.params.color}};&#34;</span>&gt;Single Template&lt;/<span style="color:#f92672">h2</span>&gt; //chamge css using custom front matter
+
+    {{.params.myVar}} &lt;<span style="color:#f92672">br</span>&gt; //access custom front matter variable 
+
+    &lt;<span style="color:#f92672">h1</span>&gt;{{ $myVarName := &#34;a string&#34;}}&lt;<span style="color:#f92672">h1</span>&gt; //give var a value 
+   
+    {{ $myVarName }} &lt;<span style="color:#f92672">br</span>&gt; //print out value
+    &lt;<span style="color:#f92672">hr</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;
+</code></pre></div><p><a href="https://gohugo.io/variables/">docs - var</a>
+###Hugo functions
+syntax: {{ func param1 param2 }}
+common hugo functions and usage:</p>
+<ul>
+<li>{{ truncate 12 &ldquo;abcedfghijklmnopqrstuvwxyz123456789&rdquo;}}</li>
+<li>{{ add 5 10 }} //displays result of addition</li>
+<li>{{ sub 6 10 }} //displays result of subtraction</li>
+<li>{{singularize cats}}</li>
+</ul>
+<p><a href="https://gohugo.io/functions/">docs - func</a></p>
+<h3 id="conditionals-for-control-flow">Conditionals for control flow</h3>
+<p>example:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp">{{ <span style="color:#960050;background-color:#1e0010">$</span>var1 :<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;a&#34;</span>}}
+{{ <span style="color:#960050;background-color:#1e0010">$</span>var2 :<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;z&#34;</span>}}
+{{ <span style="color:#960050;background-color:#1e0010">$</span>var3 :<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;B&#34;</span>}}
+
+{{ <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">not</span>(eq <span style="color:#960050;background-color:#1e0010">$</span>var1 <span style="color:#960050;background-color:#1e0010">$</span>var)}} 
+    not equal <span style="color:#75715e">//prints to page
+</span><span style="color:#75715e"></span>{{<span style="color:#66d9ef">if</span> ge <span style="color:#960050;background-color:#1e0010">$</span>var2 <span style="color:#960050;background-color:#1e0010">$</span>var3}} 
+    <span style="color:#960050;background-color:#1e0010">$</span>var2 <span style="color:#f92672">&gt;=</span> <span style="color:#960050;background-color:#1e0010">$</span>var3
+{{<span style="color:#66d9ef">if</span> lt <span style="color:#960050;background-color:#1e0010">$</span>var1 <span style="color:#960050;background-color:#1e0010">$</span>var3}}
+    <span style="color:#960050;background-color:#1e0010">$</span>var1 <span style="color:#f92672">&lt;</span> <span style="color:#960050;background-color:#1e0010">$</span>var3
+{{ <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">and</span> (ge <span style="color:#960050;background-color:#1e0010">$</span>var1 <span style="color:#960050;background-color:#1e0010">$</span>var3) (lt <span style="color:#960050;background-color:#1e0010">$</span>var2 <span style="color:#960050;background-color:#1e0010">$</span>var3)}} 
+    (<span style="color:#960050;background-color:#1e0010">$</span>var1 <span style="color:#f92672">&gt;=</span> <span style="color:#960050;background-color:#1e0010">$</span>var3 <span style="color:#f92672">&amp;&amp;</span> <span style="color:#960050;background-color:#1e0010">$</span>var2 <span style="color:#f92672">&lt;</span> <span style="color:#960050;background-color:#1e0010">$</span>var3)
+    <span style="color:#75715e">//and clause syntax: and ( ) ( )
+</span><span style="color:#75715e"></span>{{<span style="color:#66d9ef">else</span>}}
+    no conditions apply
+{{end}} <span style="color:#75715e">//end of conditional block
+</span></code></pre></div><h3 id="conditionals-with-scope">Conditionals with scope</h3>
+<p>Conditional example to highlight page link if user is currently on that page.
+Notice .Title inside the loop refers may not be the same .Title inside the for loop (unless the conditional statement is true and it is highlighted orange)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">h1</span>&gt;Single page template&lt;/<span style="color:#f92672">h1</span>&gt;&lt;<span style="color:#f92672">hr</span>&gt;&lt;<span style="color:#f92672">br</span>&gt;
+{{ $title := .Title }}  //.Title refers to page we are currently on
+{{ range .Site.Pages }}
+    &lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{.URL}}&#34;</span> <span style="color:#a6e22e">sytle</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ if eq .Title $title }} background-color:orange;{{end}}&#34;</span>&gt;{{.Title}}&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">li</span>&gt; 
+    //.Title refers to current page in loop
+{{end}}
+</code></pre></div><h2 id="data-folder">Data folder</h2>
+<hr>
+<p>Mini db for the website to store data in KV pairs in JSON, TOML, YAML.
+Suppose we have <em>data/vegetables.json</em> whose json contains:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;kale&#34;</span>: {
+    <span style="color:#f92672">&#34;Spinach&#34;</span>: {
+      <span style="color:#f92672">&#34;family&#34;</span>: <span style="color:#e6db74">&#34;Cruciferae&#34;</span>,
+      <span style="color:#f92672">&#34;botanicalName&#34;</span>: <span style="color:#e6db74">&#34;Brassica oleracea var. acephala&#34;</span>,
+      <span style="color:#f92672">&#34;ADNI&#34;</span>: <span style="color:#e6db74">&#34;707&#34;</span>
+    },
+    <span style="color:#f92672">&#34;Carrots&#34;</span>: {
+      <span style="color:#f92672">&#34;family&#34;</span>: <span style="color:#e6db74">&#34;Apiaceae&#34;</span>,
+      <span style="color:#f92672">&#34;botanicalName&#34;</span>: <span style="color:#e6db74">&#34;Daucus carota&#34;</span>,
+      <span style="color:#f92672">&#34;ANDI&#34;</span>: <span style="color:#e6db74">&#34;458&#34;</span>
+    },
+    <span style="color:#f92672">&#34;SweetPotato&#34;</span>: {
+      <span style="color:#f92672">&#34;family&#34;</span>: <span style="color:#e6db74">&#34;Convolvulaceae&#34;</span>,
+      <span style="color:#f92672">&#34;botanicalName&#34;</span>: <span style="color:#e6db74">&#34;Ipomoea batata&#34;</span>,
+      <span style="color:#f92672">&#34;ANDI&#34;</span>: <span style="color:#e6db74">&#34;181&#34;</span>
+    }
+  }
+</code></pre></div><p>To access this data, you can do the following layouts/single.html:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">h1</span>&gt;Single page template&lt;<span style="color:#f92672">h2</span>&gt;
+{{range .Site.Data.vegetables}}
+  &lt;<span style="color:#f92672">div</span>&gt;{{.family}} {{.botanicalName}} {{.ANDI}}&lt;<span style="color:#f92672">div</span>&gt;
+{{end}}
+</code></pre></div>
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/hugo">hugo</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<head>
+    <style>
+       #fastSearch { 
+  visibility: hidden;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: inline-block;
+  width: 300px;
+}      
+
+#fastSearch input { 
+  padding: 4px 10px;
+  width: 100%;
+  height: 31px;
+  font-size: 1.6em;
+  color: #aaa;
+  font-weight: bold;
+  background-color: gray;
+  border-radius: 3px 3px 0px 0px;
+  border: none;
+  outline: none;
+  text-align: left;
+  display: inline-block;
+}
+
+#searchResults li { 
+  list-style: none; 
+  margin-left: 0em;
+  background-color: #333; 
+  border-bottom: 1px dotted #000;
+}
+  #searchResults li .title { font-size: 1.1em; margin-bottom: 10px; display: inline-block;}
+
+#searchResults { visibility: inherit; display: inline-block; width: 320px; }
+#searchResults a { text-decoration: none !important; padding: 10px; display: inline-block; }
+  #searchResults a:hover, a:focus { outline: 0; background-color: #666; color: #fff; } 
+    </style>
+</head>
+
+<div id="fastSearch">
+    <input id="searchInput" tabindex="0">
+    <ul id="searchResults">
+    </ul>
+  </div>
+  <script src="/js/fuse.js"></script> 
+  <script src="/js/fastsearch.js"></script>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>

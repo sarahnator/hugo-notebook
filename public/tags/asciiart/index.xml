@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sarah&#39;s digital notebook</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Sarah&#39;s digital notebook</description>
+    <title>ASCIIart on Sarah&#39;s digital notebook</title>
+    <link>http://example.org/tags/asciiart/</link>
+    <description>Recent content in ASCIIart on Sarah&#39;s digital notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 May 2020 00:18:43 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/asciiart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,16 +21,6 @@
 [] keyboard search
 [] github content styling and analytics
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#39; `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$&#39; `$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$&#39;`$$$$$$$$$$$$$&#39;`$$$$$$! !$$$$$$&#39;`$$$$$$$$$$$$$&#39;`$$$ $$$$ $$$$$$$$$$$ $$$$$$$ $$$$$$$ $$$$$$$$$$$ $$$$ $$$$. `$&#39; \&#39; \$` $$$$$$$! !$$$$$$$ &#39;$/ `/ `$&#39; .$$$$ $$$$$. !\ i i .$$$$$$$$ $$$$$$$$. i i /! .$$$$$ $$$$$$ `--`--.$$$$$$$$$ $$$$$$$$$.--&#39;--&#39; $$$$$$ $$$$$$L `$$$$$^^$$ $$^^$$$$$&#39; J$$$$$$ $$$$$$$. .&#39; &amp;quot;&amp;quot;~ $$$ $. .$ $$$ ~&amp;quot;&amp;quot; `. .$$$$$$$ $$$$$$$$. ; .e$$$$$! $$.</description>
-    </item>
-    
-    <item>
-      <title>HowToHugo</title>
-      <link>http://example.org/posts/howtohugo/</link>
-      <pubDate>Thu, 14 May 2020 12:10:14 -0400</pubDate>
-      
-      <guid>http://example.org/posts/howtohugo/</guid>
-      <description>Front matter Metadata about a page contained by key-value pairs written in JSON, TOML, or YAML. The archetypes/default.md file prepopulates the front matter with default fields, which include title, date, and draft, and can be edited to include tag, category, or custom fields.
-front matter languages  YAML syntax:  --- title: &amp;#34;title of post&amp;#34; date: 2020-05-14T12 draft: true ---  TOML syntax:  title = &amp;#34;title of post&amp;#34; date = 2020-05-14T12 draft = true To specify front matter for a specific directory that overrides the default.</description>
     </item>
     
     <item>

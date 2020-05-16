@@ -6,10 +6,32 @@
     <description>Recent content in Posts on Sarah&#39;s digital notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 14:27:52 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 00:18:43 -0400</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Todo</title>
+      <link>http://example.org/posts/todo/</link>
+      <pubDate>Sat, 16 May 2020 00:18:43 -0400</pubDate>
+      
+      <guid>http://example.org/posts/todo/</guid>
+      <description>[] create baseof template to modularize website layout
+[] keyboard search
+[] github content styling and analytics
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$&#39; `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$&#39; `$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$&#39;`$$$$$$$$$$$$$&#39;`$$$$$$! !$$$$$$&#39;`$$$$$$$$$$$$$&#39;`$$$ $$$$ $$$$$$$$$$$ $$$$$$$ $$$$$$$ $$$$$$$$$$$ $$$$ $$$$. `$&#39; \&#39; \$` $$$$$$$! !$$$$$$$ &#39;$/ `/ `$&#39; .$$$$ $$$$$. !\ i i .$$$$$$$$ $$$$$$$$. i i /! .$$$$$ $$$$$$ `--`--.$$$$$$$$$ $$$$$$$$$.--&#39;--&#39; $$$$$$ $$$$$$L `$$$$$^^$$ $$^^$$$$$&#39; J$$$$$$ $$$$$$$. .&#39; &amp;quot;&amp;quot;~ $$$ $. .$ $$$ ~&amp;quot;&amp;quot; `. .$$$$$$$ $$$$$$$$. ; .e$$$$$! $$.</description>
+    </item>
+    
+    <item>
+      <title>HowToHugo</title>
+      <link>http://example.org/posts/howtohugo/</link>
+      <pubDate>Thu, 14 May 2020 12:10:14 -0400</pubDate>
+      
+      <guid>http://example.org/posts/howtohugo/</guid>
+      <description>Front matter Metadata about a page contained by key-value pairs written in JSON, TOML, or YAML. The archetypes/default.md file prepopulates the front matter with default fields, which include title, date, and draft, and can be edited to include tag, category, or custom fields.
+front matter languages  YAML syntax:  --- title: &amp;#34;title of post&amp;#34; date: 2020-05-14T12 draft: true ---  TOML syntax:  title = &amp;#34;title of post&amp;#34; date = 2020-05-14T12 draft = true To specify front matter for a specific directory that overrides the default.</description>
+    </item>
     
     <item>
       <title>MD syntax</title>
@@ -17,17 +39,8 @@
       <pubDate>Wed, 13 May 2020 14:27:52 -0400</pubDate>
       
       <guid>http://example.org/posts/first-post/</guid>
-      <description>Blah, blah blah.
-What I know so far:  How to copy-paste example code ascii art does not work (how do I make it work?)   .__ .__ .__ .__ .___ | |__ ____ | | | | ____ __ _ _____________| | __| _/ | | \_/ __ \| | | | / _ \ \ \/ \/ / _ \_ __ \ | / __ | | Y \ ___/| |_| |_( &amp;lt;_&amp;gt; ) \ ( &amp;lt;_&amp;gt; ) | \/ |__/ /_/ | |___| /\___ &amp;gt;____/____/\____/ \/\_/ \____/|__| |____/\____ | \/ \/ \/ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░░░░░░░░░░░▌ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌ ▐░░░░░░░░░░▌ ▐░▌ ▐░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▐░▌ ▐░█▀▀▀▀▀▀▀█░▌ ▐░▌ ▐░▌▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌▐░▌ ▐░█▀▀▀▀▀▀▀█░▌ ▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▄ ▐░▌▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▐░▌ ▐░▌ ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌ ▐░▌ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌░▌ ▐░▌▐░▌ ▐░▌▐░█▀▀▀▀█░█▀▀ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░▌ ▐░▌▐░▌▐░▌ ▐░▌▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌ ▐░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌ ▐░▌░▌ ▐░▐░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌ ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌ ▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌ ▐░░▌ ▐░░▌▐░░░░░░░░░░░▌▐░▌ ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░▌ ▀ ▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀ ▀▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀ ▀ ▀▀▀▀▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/posts/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/readme/</guid>
-      <description>| |_ _ _ / _` | ___ ___ _ _ ___ | |_ ___ | |__ ___ ___ | |__ | &#39; \ | +| | \__, | / _ \ |___| | &#39; \ / _ \ | _| / -_) | &#39;_ \ / _ \ / _ \ | / / |_||_| \_,_| |___/ \___/ _____ |_||_| \___/ _\__| \___| |_.__/ \___/ \___/ |_\_\ _|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_| |_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;|_|&amp;quot;&amp;quot;&amp;quot;&amp;quot;&amp;quot;| &amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;&amp;quot;`-0-0-&#39;  Readme A hugo-built static website acting as a digitized &amp;ldquo;notebook&amp;rdquo; to document and interact with the things I learn.</description>
+      <description>I&amp;rsquo;m late, I&amp;rsquo;m late for a very important date&amp;hellip; by Susie Oviatt
+ ,;;;, ,;;;;;;;, .;;;, ,;;;;;;;;;;;, .;;%%;;;, ,;;;;;;;;;;;;;, ;;%%%%%;;;;,. ;;;;;;;;;;;;;;; ;;%%%%%%%%;;;;;, ;;;;;;;;;;;;;;; `;;%%%%%%%%%;;;;;,;;;;;;;;;;;;;&#39; `;;%%%%%%%%%%;;;;,;;;;;;;;;;;&#39; `;;;%%%%%%%%;;;;,;;;;;;;;;&#39; `;;;%%%%%%;;;;.;;;.;;; `;;;%%%;;;;;;.;;;,; .,;;&#39; `;;;;;;;;;;,;;;;;;&#39;.,;;;, ;;;;;;;;;;;;;;;;;;;;;,. . ..,,;;;;;......;;;;;;;.... &#39;; ;;,..,;;;;;;;;;;;;..;;;;;;..;;;;.;;;;;. &#39;;;;;;;;;;;;;;;..;;;a@@@@a;;;;;;;a@@@@a, .,;;;;;;;;;;;;;;;.;;;a@@@@@@@@;;;;;,@@@@@@@a, .;;;,;;;;;;;;;;;;;;;;;@@@@@&#39; @@;;;;;;,@ `@@@@;, ;&#39; ,;;;,;;;;;;;;;;;;;;;@@@@@aa@@;;;;,;;;,@aa@@@@;;;,.,; ;;;,;;;;;;;;;;;;;;;;;;@@@@@@@;;;,;a@@&#39; `;;;;;;;&#39; &#39; ;;;,;;;;;;;;;;;;;;;;;;;;;;;;,;a@@@ # ;;,;;, .//////,,;,;;;;;;;;;;;;;;;,;;;;;;;;,;;a@@@a, ,a;;;,;;, %,/////,;;;;;;;;;;;;;;;;;;;;,;,;,;;;;a@@@@@@aaaaaaa@@@;;;;;&#39;; `%%%%,/,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;@@@@@@@@@@@;00@@;;;;;&#39; %%%%%%,;;;;;;;;;;;;;;;;;;;;;;;;;;;a@@@@@@@@@@;00@@;;;;;&#39; `%%%%%%%%%%,;;;;;;;;;;;;;;;;;;;;a@@@@@@@@@;00@@;;;;;&#39; `%%%%%%%%%%%%%%%,::::;;;;;;;;a@@@@@@@;00@@@::;;;%%%%%, `%%%%%%%%%%%%%%%,::::;;;;;@@@@@@&#39; 0@@@@::;;%%%%%%%%&#39; Oo%%%%%%%%%%%%,::::;;a@@@@@&#39; ,@@@::;;%%%%%%%&#39; `OOo%%%%%%%%%%,::::@@@@@&#39; @@;::;%%%%%%&#39; `OOOo%%%%%%%%,:::@@@@,;;;,a@:;;%%%%%&#39; `OOOOOo%%%%%,:::@@@aaaa@&#39;;;%%%%&#39; `OOOO;@@@@@@@@aa@@@@@@@@@&#39; ;@@@@@@@@@@@@@@@@@@@&#39; @@@@@@@@&#39;`@@@@@@@@&#39; `@@@@@&#39; @@@@@&#39; `@@&#39; @@&#39; .</description>
     </item>
     
   </channel>

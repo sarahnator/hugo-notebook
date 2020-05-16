@@ -5,9 +5,6 @@ draft: false
 description: "feature todo list"
 tags: [todo, hugo, ASCIIart]
 ---
-
-[] create baseof template to modularize website layout
-
 [] keyboard [search](https://gist.github.com/cmod/5410eae147e4318164258742dd053993#layouts_defaultbaseofhtml-addition)
 
 [] github content [styling and analytics](https://github.com/MeiK2333/github-style)
