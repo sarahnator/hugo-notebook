@@ -13,7 +13,7 @@ A hugo-built static website acting as a digitized "notebook" to document and int
 * To not forget, because remembering isn't necessary with a lookup table.
 * To explore topics that deeply interest me.
 
-# Build status
+# Status
 * Web server location 127.0.0.1
 
 # Built With
@@ -21,4 +21,4 @@ A hugo-built static website acting as a digitized "notebook" to document and int
 
 # Acknowledgements
 * GitHub user vividvilla - [hugo theme template](https://github.com/vividvilla/ezhil)
-* Master cp Austin Traver - for [this idea](https://helpful.wiki/) and all the help
+* Master cp Austin Traver - for [inspiration](https://helpful.wiki/) and all the help
