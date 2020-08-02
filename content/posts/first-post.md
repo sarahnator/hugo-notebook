@@ -1,8 +1,8 @@
 ---
-title: "MD syntax"
+title: "1st post"
 date: 2020-05-13T14:27:52-04:00
 draft: false
-description: "Disclaimer: this post is not about MD."
+description: "thanks for your feigned excitement"
 tags: [practice, helloWorld, ASCIIart]
 ---
 **I'm late, I'm late for a very important date... by Susie Oviatt**
